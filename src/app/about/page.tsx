@@ -20,13 +20,13 @@ export default function AboutPage() {
       name: "Sumanth",
       role: "Backend, database",
       description: "Working on the ground station software and user interface development.",
-      skills: ["Backend Development", "Database", "User Experience"]
+      skills: ["Backend Development", "Database"]
     },
     {
       name: "Diya",
       role: "Frontend",
       description: "Specializing in frontend development and user interface design.",
-      skills: ["Frontend Development", "UI Design", "User Experience"]
+      skills: ["Frontend Development", "UI Design"]
     },
     {
       name: "Hemachandran",
