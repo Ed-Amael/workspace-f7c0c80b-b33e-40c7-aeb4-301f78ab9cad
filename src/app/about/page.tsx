@@ -131,29 +131,22 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {teamMembers.map((member, index) => (
-                <Card key={index} className="bg-card border-border card-glow hover:shadow-xl transition-all duration-300">
-                  <CardHeader className="text-center">
-                    <div className="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-primary">
-                      <Users className="w-12 h-12 text-primary" />
+                <Card key={index} className="bg-card border-border card-glow hover:shadow-xl transition-all duration-300 group">
+                  <CardHeader className="text-center pb-4">
+                    <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-primary group-hover:border-primary/80 transition-colors">
+                      <Users className="w-10 h-10 text-primary" />
                     </div>
-                    <CardTitle className="text-xl text-foreground">{member.name}</CardTitle>
-                    <CardDescription className="text-primary font-medium">
+                    <CardTitle className="text-lg text-foreground mb-2">{member.name}</CardTitle>
+                    <CardDescription className="text-primary font-medium text-sm leading-relaxed">
                       {member.role}
                     </CardDescription>
                   </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-muted-foreground mb-4">
+                  <CardContent className="pt-0">
+                    <CardDescription className="text-muted-foreground text-sm leading-relaxed text-center">
                       {member.description}
                     </CardDescription>
-                    <div className="flex flex-wrap gap-2">
-                      {member.skills.map((skill, skillIndex) => (
-                        <Badge key={skillIndex} variant="secondary" className="text-xs">
-                          {skill}
-                        </Badge>
-                      ))}
-                    </div>
                   </CardContent>
                 </Card>
               ))}
