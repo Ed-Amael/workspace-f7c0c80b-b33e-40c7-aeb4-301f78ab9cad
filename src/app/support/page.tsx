@@ -61,21 +61,21 @@ const faqItems: FAQItem[] = [
     icon: <Wifi className="w-5 h-5" />
   },
   {
-    id: "6",
+    id: "5",
     question: "Is AuraSAT a commercial project?",
     answer: "AuraSAT is currently a college project focused on research, development, and educational impact. While the technology has commercial potential, our primary goal is to demonstrate the feasibility of LEO satellite solutions for remote connectivity and to provide hands-on learning experience for students. Future commercialization may be considered based on project success and stakeholder interest.",
     category: "General",
     icon: <FileText className="w-5 h-5" />
   },
   {
-    id: "7",
+    id: "6",
     question: "How can I get involved with AuraSAT?",
     answer: "We welcome collaboration from students, researchers, and organizations interested in satellite technology and rural development. You can contribute through technical expertise, research partnerships, or funding support. Students can join the project team through our college's engineering programs, while organizations can explore partnership opportunities for pilot deployments and technology validation.",
     category: "Participation",
     icon: <Users className="w-5 h-5" />
   },
   {
-    id: "8",
+    id: "7",
     question: "What are the technical challenges AuraSAT addresses?",
     answer: "AuraSAT tackles several key challenges: providing connectivity in mountainous terrain with line-of-sight obstacles, maintaining reliable links during extreme conditions, ensuring power efficiency for satellite operations, managing signal interference, and creating cost-effective ground station infrastructure. Our solutions include adaptive signal processing, mesh networking, and robust hardware design.",
     category: "Technology",

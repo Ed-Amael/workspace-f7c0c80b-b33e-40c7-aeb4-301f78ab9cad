@@ -133,20 +133,27 @@ export default function Home() {
 
 
       {/* CTA Section */}
-      <section className="py-12 bg-secondary">
+      <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
               Ready to Explore the Future?
             </h2>
-            <p className="text-lg text-muted-foreground mb-6">
-              Discover how AuraSAT is revolutionizing connectivity in remote India.
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Discover how AuraSAT is revolutionizing connectivity in remote India. 
+              Explore our coverage areas and test our simulated satellite connection.
             </p>
-            <div className="flex justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white">
                 <Link href="/coverage">
                   <MapPin className="mr-2 h-4 w-4" />
                   Explore Coverage Map
+                </Link>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-white">
+                <Link href="/speedtest">
+                  <Wifi className="mr-2 h-4 w-4" />
+                  Test Connection Speed
                 </Link>
               </Button>
             </div>

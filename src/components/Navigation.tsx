@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Home, Satellite, Map, Cloud, Zap, HelpCircle } from "lucide-react";
+import { Menu, Home, Satellite, Map, Zap, HelpCircle } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
