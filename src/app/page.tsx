@@ -112,13 +112,13 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            {/* Student Innovation */}
+            {/* Rapid Deployment */}
             <Card className="bg-card border-border card-glow hover:shadow-xl transition-all duration-300">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="w-8 h-8 text-primary" />
                 </div>
-                <CardTitle className="text-xl text-foreground">Student Innovation</CardTitle>
+                <CardTitle className="text-xl text-foreground">Rapid Deployment</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-muted-foreground text-center">

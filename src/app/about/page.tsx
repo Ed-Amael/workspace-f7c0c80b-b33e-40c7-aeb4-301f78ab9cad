@@ -91,7 +91,7 @@ export default function AboutPage() {
                   <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Lightbulb className="w-8 h-8 text-primary" />
                   </div>
-                  <CardTitle className="text-xl text-foreground">Innovation</CardTitle>
+                  <CardTitle className="text-xl text-foreground">Affordability</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-muted-foreground text-center">
