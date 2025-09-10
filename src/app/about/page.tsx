@@ -105,11 +105,11 @@ export default function AboutPage() {
                   <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Award className="w-8 h-8 text-primary" />
                   </div>
-                  <CardTitle className="text-xl text-foreground">Innovation</CardTitle>
+                  <CardTitle className="text-xl text-foreground">Accessibility</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-muted-foreground text-center">
-                    Pioneering new approaches to satellite technology and connectivity solutions.
+                    Making internet connectivity accessible to everyone, regardless of location or economic status.
                   </CardDescription>
                 </CardContent>
               </Card>
